@@ -1,0 +1,48 @@
+download mongodb
+
+
+download insomnia
+
+
+download mongodb compass community
+
+
+Biblioteca "express". O Express é um framework para aplicativo da web do Node.js 
+mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel.
+
+
+Biblioteca "nodemon". O Nodemon é uma biblioteca que reinicia automaticamente o servidor Node 
+toda vez que uma alteração é realizada.
+
+
+Biblioteca "mongoose". Da acesso entre o node e mongodb. 
+
+
+Biblioteca "axios".
+
+
+Biblioteca "cors".
+
+
+Biblioteca "react-navigation".
+
+
+Biblioteca " react-navigation-stack".
+
+
+@react-native-community/masked-view
+
+
+expo install react-native-maps
+
+
+expo install expo-location
+
+
+expo install react-native-webview
+
+biblioteca "socket.io".
+
+biblioteca "socket.io-client".
+
+
