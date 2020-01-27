@@ -1,3 +1,3 @@
   # Dev-Radar
    Projeto da **semanaOmniStack10** utilizando as seguintes tecnologias.
-  [react](../facebook/react/CHANGELOG.md)
+  [react](https://github.com/facebook/react/blob/master/CHANGELOG.md)
