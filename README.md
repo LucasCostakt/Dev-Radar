@@ -11,4 +11,25 @@
 
 O objetivo do desenvolvimento foi criar um software que abrangesse uma aplicação onde os conhecimentos adquiridos com a linguagem javascript fosse implementada na web, no app mobile e no backend, com isso tive o primeiro contato com a linguagem e os demais frameworks, então começou desde o zero da aplicação até o mais complexo trecho onde há atualização em tempo real dos usuários através das tecnologias propostas, fazendo assim  uma grande melhora na prática de programação e ainda ter um ganho didático e profissional com essa plataforma, com isso tive um ganho elevado de conhecimento e pretendo me aprofundar mais nessa stack.  
 
+## O projeto
+![web](https://github.com/LucasCostakt/Dev-Radar/blob/master/images/webgif.gif?raw=true)
+![mobilelight](https://github.com/LucasCostakt/Dev-Radar/blob/master/images/ezgif.com-video-to-gif.gif?raw=true)
+![mobiledark](https://github.com/LucasCostakt/Dev-Radar/blob/master/images/mobiledarkgif%20(1).gif?raw=true)
+
+## Bibliotecas e recursos usados
+- **MongoDB**: O MongoDB é um banco de dados de documentos com a escalabilidade e flexibilidade que você deseja com as consultas e indexações necessárias.
+- **Insomnia**: Usado para criar solicitações HTTP especificando URL, carga útil, cabeçalhos e autorização, utilizando REST. 
+- **Mongodb compass community**: Gerenciador dos dados armazenados no MongoDB.
+- **Mongoose**: Biblioteca que da acesso entre o node e mongodb. 
+- **Axios**: Cliente HTTP baseado em promessa para o navegador e node.js.
+- **react-navigation**: 
+- **react-navigation-stack**: 
+- **react-native-maps**: 
+- **expo-location**: 
+- **react-native-webview**: 
+- **socket.io**: 
+- **socket.io-client**: 
+- **mapstyle.withgoogle.com**:
+
+
  
