@@ -41,8 +41,15 @@ expo install expo-location
 
 expo install react-native-webview
 
+
 biblioteca "socket.io".
+
 
 biblioteca "socket.io-client".
 
+
+https://mapstyle.withgoogle.com/ (thema Aubergue)
+
+
+biblioteca react-bootstrap 
 

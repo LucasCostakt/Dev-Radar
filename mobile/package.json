@@ -9,10 +9,13 @@
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.6",
+    "@shopify/react-async": "^3.1.6",
     "axios": "^0.19.1",
+    "bootstrap": "^4.4.1",
     "expo": "~36.0.0",
     "expo-location": "~8.0.0",
     "react": "~16.9.0",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "~16.9.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
     "react-native-gesture-handler": "~1.5.0",

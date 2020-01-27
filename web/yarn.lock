@@ -1212,6 +1212,76 @@
   resolved "https://registry.yarnpkg.com/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.2.tgz#8013f2af54a2b7d735f71560ff360d3a8176a87b"
   integrity sha512-vTCdPp/T/Q3oSqwHmZ5Kpa9oI7iLtGl3RQaA/NyLHikvcrPxACkkKVr/XzkSPJWXHRhKGzVvb0urJsbMlRxi1Q==
 
+"@shopify/async@^2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@shopify/async/-/async-2.1.3.tgz#685318cd1c3ce2e17c609ceb7124d966bcdf6f4a"
+  integrity sha512-COIWxkxqYGpLyFNtThnHIVs7EM6YwCGM4AYicq0TXcyTb3hxAbEhkxv5GltfXWIrvnHm9/0j5YJBvfSGCPBLqQ==
+
+"@shopify/javascript-utilities@^2.4.0":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@shopify/javascript-utilities/-/javascript-utilities-2.4.1.tgz#99e1994381fc33a2609f7792b6812feee32362fa"
+  integrity sha512-CDp4nWHjVXTr+rYV5RMBs8aJ5PbXUdbz47jnKisBWa9GFwJktZFj2PxefXqfLd51KpIuQpFnA/NMvq4M5tdTlw==
+  dependencies:
+    "@types/lodash" "^4.14.65"
+    "@types/react" "^16.0.2"
+    lodash "^4.17.4"
+    lodash-decorators "^4.3.5"
+
+"@shopify/react-async@^3.1.6":
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/@shopify/react-async/-/react-async-3.1.6.tgz#9bb512e48e6afceeef8b04b96039638e4a10a1d7"
+  integrity sha512-9gZ5mE4mtGDB/hAQ7TNwGoB6Pur7epoErcWPAHCkm0JJFBIdFUgX2O+FeX+3gND8hHJP6A2oHPlfictODkv7Kg==
+  dependencies:
+    "@shopify/async" "^2.1.3"
+    "@shopify/javascript-utilities" "^2.4.0"
+    "@shopify/react-effect" "^3.2.10"
+    "@shopify/react-hooks" "^1.4.1"
+    "@shopify/react-hydrate" "^1.1.13"
+    "@shopify/react-idle" "^1.0.15"
+    "@shopify/react-intersection-observer" "^2.0.12"
+    "@shopify/useful-types" "^2.1.3"
+
+"@shopify/react-effect@^3.2.10":
+  version "3.2.10"
+  resolved "https://registry.yarnpkg.com/@shopify/react-effect/-/react-effect-3.2.10.tgz#c467a85615aaf2d2566cb443f42fbdb1b537ea04"
+  integrity sha512-H7ISIREPY7UCd3Z/Tfq/RULVhkfUBrWDtTtIVsGjELgYMTZy9/6EiknUNglI09AT0F8WMU4VlQbOWQNmnUVr6g==
+  dependencies:
+    "@shopify/useful-types" "^2.1.3"
+    tslib "^1.9.3"
+
+"@shopify/react-hooks@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@shopify/react-hooks/-/react-hooks-1.4.1.tgz#68ab3bc1e759d8294eeda4c3d1b7e3cdb46b43cb"
+  integrity sha512-MPMekRnM1K/g0F/8N4IpL3VWwOFP6HXCPgjYFEe0FyFvj10Xs1jyYK3MiPViiz3qFempLIYEQ6p58LJuXIytxw==
+
+"@shopify/react-hydrate@^1.1.13":
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/@shopify/react-hydrate/-/react-hydrate-1.1.13.tgz#dea6f1381c3e48b0255eccb9cbef005aa0bc55e3"
+  integrity sha512-0/62NTLR+6ormQWGjVeb9zazHyFFGxlPnYrGshCcv808ZL2DLegq71l89GuyN0n/ZLo9H1hiqQEIyIoybxJ5+g==
+  dependencies:
+    "@shopify/react-effect" "^3.2.10"
+    "@shopify/react-hooks" "^1.4.1"
+
+"@shopify/react-idle@^1.0.15":
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@shopify/react-idle/-/react-idle-1.0.15.tgz#0d725cc06a91d3bcfae87e2daca1ec011014e475"
+  integrity sha512-wsDoiHYS5oHU1HHZChZ/AbpQ2iN6jmgK4mz5J4e8DKe1SteOduiXi7esSKn9kQHLgazp1BsbI2EpgiASodKllQ==
+  dependencies:
+    "@shopify/async" "^2.1.3"
+    "@shopify/useful-types" "^2.1.3"
+
+"@shopify/react-intersection-observer@^2.0.12":
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/@shopify/react-intersection-observer/-/react-intersection-observer-2.0.12.tgz#4e56edffe06451e7853b1a8d6f7d4ff87c5d11c4"
+  integrity sha512-z/3fc3orVTziNy0KPLPAmtmPPKoI44EFZBCkEIjnAP9qByldUzqhUgVlCQHfEmiReLpHPUkur93yUpBU5bPAHw==
+
+"@shopify/useful-types@^2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@shopify/useful-types/-/useful-types-2.1.3.tgz#d08bc53bd6b9d603ce7fcdc03cc35420ea64ef01"
+  integrity sha512-KpqWKqcj1DLmznq9AXmT70MRMKDWA8OmzkT0eHxw4lvOUkws48YBHV9WVxf3JmrCw7xm4Bd4rEGJzx5TFxS6/Q==
+  dependencies:
+    tslib "^1.9.3"
+
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-4.2.0.tgz#dadcb6218503532d6884b210e7f3c502caaa44b1"
@@ -1433,6 +1503,11 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.3.tgz#bdfd69d61e464dcc81b25159c270d75a73c1a636"
   integrity sha512-Il2DtDVRGDcqjDtE+rF8iqg1CArehSK84HZJCT7AMITlyXRBpuPhqGLDQMowraqqu1coEaimg4ZOqggt6L6L+A==
 
+"@types/lodash@^4.14.65":
+  version "4.14.149"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.149.tgz#1342d63d948c6062838fbf961012f74d4e638440"
+  integrity sha512-ijGqzZt/b7BfzcK9vTrS6MFljQRPn5BFWOx8oE0GYxribu6uV+aA9zZuXI1zc/etK9E8nrgdoF2+LgUw7+9tJQ==
+
 "@types/minimatch@*":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
@@ -1469,6 +1544,14 @@
   version "16.9.17"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.17.tgz#58f0cc0e9ec2425d1441dd7b623421a867aa253e"
   integrity sha512-UP27In4fp4sWF5JgyV6pwVPAQM83Fj76JOcg02X5BZcpSu5Wx+fP9RMqc2v0ssBoQIFvD5JdKY41gjJJKmw6Bg==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^2.2.0"
+
+"@types/react@^16.0.2":
+  version "16.9.19"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.19.tgz#c842aa83ea490007d29938146ff2e4d9e4360c40"
+  integrity sha512-LJV97//H+zqKWMms0kvxaKYJDG05U2TtQB3chRLF8MPNs+MQh/H1aGlyDUxjaHvu08EAGerdX2z4LTBc7ns77A==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -2065,10 +2148,10 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.9.0.tgz#24390e6ad61386b0a747265754d2a17219de862c"
   integrity sha512-Uvq6hVe90D0B2WEnUqtdgY1bATGz3mw33nH9Y+dmA+w5DHvUmBgkr5rM/KCHpCsiFNRUfokW/szpPPgMK2hm4A==
 
-axios@^0.19.1:
-  version "0.19.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.1.tgz#8a6a04eed23dfe72747e1dd43c604b8f1677b5aa"
-  integrity sha512-Yl+7nfreYKaLRvAvjNPkvfjnQHJM1yLBY3zhqAwcJSwR/6ETkanUgylgtIvkvz0xJ+p/vZuNw8X7Hnb7Whsbpw==
+axios@^0.19.2:
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
+  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
   dependencies:
     follow-redirects "1.5.10"
 
@@ -6300,6 +6383,13 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash-decorators@^4.3.5:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash-decorators/-/lodash-decorators-4.5.0.tgz#a4bb63dfbb512f0dd9409f7af452e4e2edcb80f4"
+  integrity sha512-isfVBBSzzXu7Z6abY/Bit5hCbM+gPhQx/DluTPAmzUPF3KRtvLLRNBgVFUxw6B8vwTMGyQFRVqbvQBli9hsXZA==
+  dependencies:
+    tslib "^1.7.1"
+
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -6340,7 +6430,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-"lodash@>=3.5 <5", lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.5:
+"lodash@>=3.5 <5", lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
@@ -9959,7 +10049,7 @@ ts-pnp@1.1.5, ts-pnp@^1.1.2:
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.1.5.tgz#840e0739c89fce5f3abd9037bb091dbff16d9dec"
   integrity sha512-ti7OGMOUOzo66wLF3liskw6YQIaSsBgc4GOAlWRnIEj8htCxJUxskanMUoJOD6MDCRAXo36goXJZch+nOS0VMA==
 
-tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.7.1, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==

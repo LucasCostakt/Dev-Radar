@@ -1,7 +1,7 @@
-const { Router } = require('express');
 const axios = require('axios');
 const parseStringAsArray = require('../utils/parseStringAsArray');
 const Dev = require('../models/Dev');
+const {findConnections, sendMessage} = require('../websocket');
 
 //No máximo 5 funções dentro de um controle, INDEX, SHOW, STRORE, UPDATE e DESTROY
 
@@ -37,8 +37,19 @@ module.exports = {
                 techs: techsArray,
                 location,
             });
+
+         //filtrar as conexões que estão no max de 10km de distancia e que o novo deve tenha pelo menos uma das techs filtradas
+
+            const sendSocketMessageTo = findConnections(
+                {latitude, longitude},
+                techsArray,
+            )
+
+            sendMessage(sendSocketMessageTo, 'new-dev', dev);
         }
-    
+        
+
+        
         return response.json(dev);
     }
 
