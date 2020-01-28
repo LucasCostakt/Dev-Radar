@@ -9,12 +9,20 @@
 <img align="center" href=" https://rem.mit-license.org/" src="https://camo.githubusercontent.com/890acbdcb87868b382af9a4b1fac507b9659d9bf/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e737667"></img>
 </p>
 
+
+
 ## Obejetivo
 
 O objetivo do desenvolvimento foi criar um software que abrangesse uma aplicação onde os conhecimentos adquiridos com a linguagem javascript fosse implementada na camada web, no app mobile e no backend, com isso tive o primeiro contato com a linguagem e os demais frameworks, então o projeto começou desde o zero até o mais complexo trecho onde há atualização em tempo real dos usuários através das tecnologias propostas, fazendo assim  uma grande melhora na minha prática de programação e ainda ter um ganho didático e profissional com essa plataforma, com isso tive um ganho elevado de conhecimento e pretendo me aprofundar mais nessa stack.  
 
 ## O projeto
+
+### Versão Web
+Texto
 ![web](https://github.com/LucasCostakt/Dev-Radar/blob/master/images/webgif.gif?raw=true)
+
+### Versão Mobile
+Texto
 ![mobilelight](https://github.com/LucasCostakt/Dev-Radar/blob/master/images/ezgif.com-video-to-gif.gif?raw=true)
 ![mobiledark](https://github.com/LucasCostakt/Dev-Radar/blob/master/images/mobiledarkgif%20(1).gif?raw=true)
 
@@ -24,14 +32,10 @@ O objetivo do desenvolvimento foi criar um software que abrangesse uma aplicaç�
 - **Mongodb compass community**: Gerenciador dos dados armazenados no MongoDB.
 - **Mongoose**: Biblioteca que da acesso entre o node e mongodb. 
 - **Axios**: Cliente HTTP baseado em promessa para o navegador e node.js.
-- **react-navigation**: 
-- **react-navigation-stack**: 
-- **react-native-maps**: 
-- **expo-location**: 
+- **react-navigation**: O  React Navigation fornece uma maneira para fazer a transição entre telas e gerenciar o histórico de navegação.
+- **react-native-maps**: API intuitiva para utilizar e controlar declarativamente os recursos no mapa.
+- **expo-location**: Permite ler informações de localização geográfica do dispositivo. Pode pesquisar o local atual ou assinar eventos de atualização de local.
 - **react-native-webview**: 
-- **socket.io**: 
-- **socket.io-client**: 
-- **mapstyle.withgoogle.com**:
-
-
- 
+- **socket.io**: Usado para criar um canal de comunicação bidirecional entre um cliente e um servidor.
+- **socket.io-client**: Utilizado na parte front da apicação.
+- **mapstyle.withgoogle.com**: Personalização das cores, estradas, etiquetas no projeto da Google Maps Platform. Utilizado para colocar o tema escuro.
