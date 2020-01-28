@@ -19,10 +19,12 @@ O objetivo do desenvolvimento foi criar um software que abrangesse uma aplicaç�
 
 ### Versão Web
 Texto
+
 ![web](https://github.com/LucasCostakt/Dev-Radar/blob/master/images/webgif.gif?raw=true)
 
 ### Versão Mobile
 Texto
+
 ![mobilelight](https://github.com/LucasCostakt/Dev-Radar/blob/master/images/ezgif.com-video-to-gif.gif?raw=true)
 ![mobiledark](https://github.com/LucasCostakt/Dev-Radar/blob/master/images/mobiledarkgif%20(1).gif?raw=true)
 
