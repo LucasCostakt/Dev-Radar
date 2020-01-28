@@ -37,7 +37,6 @@ Texto
 - **react-navigation**: O  React Navigation fornece uma maneira para fazer a transição entre telas e gerenciar o histórico de navegação.
 - **react-native-maps**: API intuitiva para utilizar e controlar declarativamente os recursos no mapa.
 - **expo-location**: Permite ler informações de localização geográfica do dispositivo. Pode pesquisar o local atual ou assinar eventos de atualização de local.
-- **react-native-webview**: 
 - **socket.io**: Usado para criar um canal de comunicação bidirecional entre um cliente e um servidor.
 - **socket.io-client**: Utilizado na parte front da apicação.
 - **mapstyle.withgoogle.com**: Personalização das cores, estradas, etiquetas no projeto da Google Maps Platform. Utilizado para colocar o tema escuro.
