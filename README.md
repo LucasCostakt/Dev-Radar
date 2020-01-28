@@ -18,7 +18,9 @@ O objetivo do desenvolvimento foi criar um software que abrangesse uma aplicaç�
 ## O projeto
 
 ### Versão Web
-Texto
+
+A versão web desemvolvida com o React é a parte onde se aloca os usuários novos, os campos utilizados são: Usuário do github, tecnologias utilizadas e as coordenadas de latitude e longitude, essas coordenadas são adquiridas automaticamente pelo navegador mas pode-se alterá las. Ao lado fica os devs cadastrados juntamente com o Nome, as tecnologias, biografia e o link para o github do dev, os dados vindos do github são obtidos pela [Api](developer.github.com). 
+
 
 ![web](https://github.com/LucasCostakt/Dev-Radar/blob/master/images/webgif.gif?raw=true)
 
