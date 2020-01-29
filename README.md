@@ -25,7 +25,8 @@ A versão web desemvolvida com o React é a parte onde se aloca os usuários nov
 ![web](https://github.com/LucasCostakt/Dev-Radar/blob/master/images/webgif.gif?raw=true)
 
 ### Versão Mobile
-Texto
+
+A camada mobile é onde há o mapa com os desenvolvedores cadastrados são mostrados nele, a busca é feita pela barra superior na tela, nele a pesquisa é feita pelas tecnologias, botando as tecnologias retorna todos os devs cadastrados com elas, cada um dos devs mostra primeiramente sua foto obtida pela [Api](developer.github.com) do github, ao clicar no dev aparece o nome e a biografia vindo também da api e as tecs vindas do banco, clicando novamente abre-se o perfil do github através de uma webview para que não precise sair do app.
 
 ![mobilelight](https://github.com/LucasCostakt/Dev-Radar/blob/master/images/ezgif.com-video-to-gif.gif?raw=true)
 ![mobiledark](https://github.com/LucasCostakt/Dev-Radar/blob/master/images/mobiledarkgif%20(1).gif?raw=true)
