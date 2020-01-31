@@ -32,6 +32,7 @@ A camada mobile é onde há o mapa com os desenvolvedores cadastrados são mostr
 ![mobiledark](https://github.com/LucasCostakt/Dev-Radar/blob/master/images/mobiledarkgif%20(1).gif?raw=true)
 
 ## Bibliotecas e recursos usados
+- **Expo**: é uma estrutura e uma plataforma para aplicações universais do React. É um conjunto de ferramentas e serviços criados em torno do React Native e plataformas nativas que ajudam a desenvolver.
 - **MongoDB**: O MongoDB é um banco de dados de documentos com a escalabilidade e flexibilidade que você deseja com as consultas e indexações necessárias.
 - **Insomnia**: Usado para criar solicitações HTTP especificando URL, carga útil, cabeçalhos e autorização, utilizando REST. 
 - **Mongodb compass community**: Gerenciador dos dados armazenados no MongoDB.
